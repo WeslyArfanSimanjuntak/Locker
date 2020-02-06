@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Locker.Views.E_KTP">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Clear" Clicked="Clear_Clicked" />
+        <ToolbarItem Text="Search" Clicked="Search_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Entry x:Name="entryNIK" Keyboard="Numeric" Placeholder="Type NIK here.." />
+                <Label x:Name="labelFullName" />
+                <Label x:Name="labelNO_KK"/>
+                <Label x:Name="labelNIK"/>
+                <Label x:Name="labelKAB_NAME"/>
+                <Label x:Name="labelNO_RW"/>
+                <Label x:Name="labelKEC_NAME"/>
+                <Label x:Name="labelJENIS_PKRJN"/>
+                <Label x:Name="labelNO_RT"/>
+                <Label x:Name="labelNO_KEL"/>
+                <Label x:Name="labelALAMAT"/>
+                <Label x:Name="labelNO_KEC"/>
+                <Label x:Name="labelTMPT_LHR"/>
+                <Label x:Name="labelSTATUS_KAWIN"/>
+                <Label x:Name="labelNO_PROP"/>
+                <Label x:Name="labelNAMA_LGKP_IBU"/>
+                <Label x:Name="labelPROP_NAME"/>
+                <Label x:Name="labelNO_KAB"/>
+                <Label x:Name="labelKEL_NAME"/>
+                <Label x:Name="labelJENIS_KLMIN"/>
+                <Label x:Name="labelTGL_LHR"/>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
