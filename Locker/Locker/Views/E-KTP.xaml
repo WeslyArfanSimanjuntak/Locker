@@ -10,7 +10,8 @@
         <ToolbarItem Text="Clear" Clicked="Clear_Clicked" />
         <ToolbarItem Text="Search" Clicked="Search_Clicked" />
     </ContentPage.ToolbarItems>
-
+    <!--<ActivityIndicator x:Name="activityIndicatorSearchDataEktp" IsRunning="False" IsEnabled="False" Color="Green" BackgroundColor="Transparent" VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="Fill" />-->
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
