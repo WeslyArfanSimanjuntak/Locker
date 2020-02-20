@@ -18,7 +18,7 @@
                 <views:E_KTP />
             </x:Arguments>
         </NavigationPage>
-        
+
         <NavigationPage Title="About">
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
@@ -29,7 +29,7 @@
                 <views:AboutPage />
             </x:Arguments>
         </NavigationPage>
-        
+
         <NavigationPage Title="Browse">
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
@@ -40,5 +40,56 @@
                 <views:ItemsPage />
             </x:Arguments>
         </NavigationPage>
-    </TabbedPage.Children>    
+
+        <NavigationPage Title="StackLayout">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:LayoutStackLayout />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Absolute Layout">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:LayoutAbsolute />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Flex Layout">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:LayoutFlex />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Grid Layout">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:LayoutGrid />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Relative Layout">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:LayoutRelative />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
 </TabbedPage>

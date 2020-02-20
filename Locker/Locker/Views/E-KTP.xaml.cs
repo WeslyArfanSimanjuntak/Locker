@@ -61,5 +61,10 @@ namespace Locker.Views
         {
             this.entryNIK.Text = "";
         }
+
+        private void SliderOpacity_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            this.boxViewFirst.Opacity = sliderOpacity.Value;
+        }
     }
 }

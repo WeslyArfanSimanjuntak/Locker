@@ -15,6 +15,10 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                <BoxView x:Name="boxViewFirst" HeightRequest="600" WidthRequest="150" BackgroundColor="Accent" Opacity="0.1">
+
+                </BoxView>
+                <Slider Minimum="0" Maximum="1" ValueChanged="SliderOpacity_ValueChanged" x:Name="sliderOpacity" />
                 <Entry x:Name="entryNIK" Keyboard="Numeric" Placeholder="Type NIK here.." />
                 <Label x:Name="labelFullName" />
                 <Label x:Name="labelNO_KK"/>
@@ -36,8 +40,9 @@
                 <Label x:Name="labelKEL_NAME"/>
                 <Label x:Name="labelJENIS_KLMIN"/>
                 <Label x:Name="labelTGL_LHR"/>
-            </StackLayout>
 
+            </StackLayout>
         </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>
